@@ -1,0 +1,21 @@
+{
+    "manifest_version": 2,
+    "name": "Random port proxy",
+    "version": "1.0",
+    "description": "Selects a random proxy on every browser reload by changing port in the given interval",
+    "content_scripts": [
+        {
+            "matches": [
+                "<all_urls>"
+            ],
+            "js": [
+                "random-port-proxy.js"
+            ]
+        }
+    ],
+    "browser_specific_settings": {
+        "gecko": {
+            "id": "random-port-proxy@example.com"
+        }
+    }
+}

@@ -1,0 +1,13 @@
+# exports.settings = {
+#   protocol: "http",
+#   host: "...",
+#   credentials: {
+#     username: "...",
+#     password: "...",
+#   },
+#   ports: {
+#     min: <number>,
+#     max: <number>,
+#   },
+# };
+settings.js
